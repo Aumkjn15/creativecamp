@@ -1,0 +1,505 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>vue.js</title>
+    <link rel="icon" href="logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,500&amp;text=Vue.js" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Roboto Mono" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div style="
+    margin-top: 135px;
+    align-content:center;
+    text-align: center;">
+        <nav style="
+        margin-top:20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        margin-right: 30px;
+        ">
+            <ul style="
+        color:#7f8c8d;
+        font-size: 15px;
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;">
+                <li style="
+                display: inline;
+                padding-right: 15px;">
+                    Guide
+                </li>
+                <li style="
+                display: inline;
+                padding-right: 22.5px;">
+                    API
+                </li>
+                <li style="
+                display: inline;
+                 padding-right: 22.5px;">
+                    Examples
+                </li>
+                <li style="
+                display: inline;
+                 padding-right: 22.5px;">
+                    Blog
+                </li>
+                <li style="
+                display: inline;
+                 padding-right: 22.5px;">
+                    Community
+                </li>
+            </ul>
+        </nav>
+        <img style="
+        width:200px;
+        margin-top : 55px;" src="logo.png" />
+
+        <h1 style="
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 4em;
+        color: #34495e;">Vue.js</h1>
+
+        <div style="
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #7f8c8d;">
+            Reactive Components for Modern Web Interfaces
+        </div>
+
+        <div style="display: inline-block;
+        padding-top: 15px; ">
+            <button style="
+            background-color: #4fc08d;
+            color: #ffffff;
+            border-radius: 4px;
+            border-width: 0;
+            width: 140px;
+            font-weight: 700px;
+            font-family: sans-serif;
+            font-size: 15px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 4 px;
+            margin-right: 5px;
+            margin-left: 5px;">Install v1.0.26</button>
+            <button style="
+            background-color: #4fc08d;
+            color: #ffffff;
+            border-radius: 4px;
+            border-width: 0;
+            width: 140px;
+            font-weight: 700px;
+            font-family: sans-serif;
+            font-size: 15px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 4 px;
+            margin-right: 5px;
+            margin-left: 5px;">Get Started</button>
+        </div>
+
+        <div style="display: block;
+        margin-top: 30px;">
+            <button style="
+            height: 20px;
+            width: 100px;
+            color: #ffffff;
+            background-color: #1b95e0;
+            border-radius: 3px;
+            border-width: 0;
+            font-family: Helvetica Neue, Arial, sans-serif;
+            font-size: 11px;"><i class="fa fa-twitter" aria-hidden="true"></i>
+Follow @vuejs</button>
+            <img style="
+            height: 20px;
+            width: 102px;" src="star.jpg" />
+
+            <button style="
+            height: 20px;
+            width: 130px;
+             border-radius: 4px;
+             font-family: sans-serif;
+             border-width: 0;
+             font-size: 11px;             
+             border: 1px solid #d4d4d4;">
+             <img style="
+             height: 15px;
+             padding-right: 5px;"
+             src="patreon.png">Support Vue.js</button>
+        </div>
+
+        <div style="
+        color: #7f8c8d;
+        font-size: 0.85em;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        margin-top: 42px;">
+            Proudly sponsored by
+        </div>
+        <div style="
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;">
+            <img style="
+            height: 26.66px;
+            width: 100px;
+            padding-right: 20px;" src="itunescn.png">
+            <img style="
+            height: 24px;
+            width: 100px;
+            padding-right: 20px;" src="jsfiddle.png">
+            <img style="
+            height: 34.16px;
+            width: 100px;
+            padding-right: 20px;" src="laravel.png">
+            <img style="
+            height: 11.06px;
+            width: 100px;
+            padding-right: 20px;" src="chaitin.png">
+            <img style="
+            height: 25px;
+            width: 100px;
+            padding-right: 20px;" src="htmlburger.png">
+            <img style="
+            height: 19.39px;
+            width: 100px;
+            padding-right: 20px;" src="someline.png">
+            <img style="
+            height: 22.5px;
+            width: 75px;
+            padding-right: 20px;" src="juejin.png">
+            <img style="
+            height: 20.97px;
+            width: 75px;
+            padding-right: 20px;" src="monterail.svg">
+            <img style="
+            height: 18.39px;
+            width: 80px;
+            padding-right: 20px;" src="trisoft.png">
+        </div>
+        <img style="
+        align-items: center;
+        margin-top: 22.5px;
+        height: 11.5px;
+        width: 20px;" src="down.png">
+    </div>
+    <div style="
+    margin-top: 42.5px;
+    margin-bottom: 33.75px;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #2c3e50;">10 Second Example</div>
+
+    <div style="
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;">
+        <img style="
+        height: 230.422px;
+        width: 1200px;
+        padding-right: 7.5px;" src="summ.jpg" />
+        <!--<h3 style="
+        padding-right: 7.5px;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+        color: #7f8c8d;">+</h3>
+        <img style="
+        height: 150px;
+        width: 336px;
+        padding-right: 7.5px;" src="two.jpg" />
+        <h3 style="
+        padding-right: 7.5px;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+        color: #7f8c8d;">=</h3>
+        <img style="
+        height: 150px;
+        width: 336px;
+        padding-right: 7.5px;" src="sum.jpg" />-->
+    </div>
+
+    <div style="
+        margin-top: 45px;
+        height: 493px;
+        width: 100%;
+        background-color: #f9f9f9;">
+        <div style="
+            padding-top: 45px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;">
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="simple.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Simple</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">Write some HTML, grab some JSON, create a Vue instance, that's it.</div>
+            </div>
+
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="reactive.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Reactive</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">Expressions & computed properties with transparent dependency tracking.</div>
+            </div>
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="components.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Components</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">Compose your application with decoupled, reusable components.</div>
+            </div>
+
+        </div>
+        <div style="
+            padding-top: 45px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;">
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="compact.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Compact</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">~24kb min+gzip, no dependency.</div>
+            </div>
+
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="fast.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Fast</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">Precise and efficient async batch DOM updates.</div>
+            </div>
+
+            <div style="
+            width: 280px;
+            padding: 40px;">
+                <div style="
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;">
+                    <div>
+                        <img style="
+                        height: 40px;
+                        width: 40px;" src="package.jpg" />
+                    </div>
+                    <h2 style="
+                        padding-left: 12px;
+                        color: #34495e;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                        ">Package Ready</h2>
+                </div>
+                <div style="
+                margin-top: -10px;
+                padding-left: 52px;
+                color: #7f8c8d;
+                font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+                font-size: 15px;
+                ">Install via NPM or Bower - leverage your favorite eco system!</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="
+    height: 250px;
+    padding: 4em;
+    background-color: #42b983;
+    color: #ffffff;">
+        <h2 style="
+        margin-top: 0;
+        color: #fff;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;">
+
+        You should try it out if you like:</h2>
+        <ul style="
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        list-style-type: none;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.05em;">
+            <li style="
+            width: 320px;">
+                <img src="like.jpg"> Extendable Data bindings
+            </li>
+            <li style="
+            width: 320px;">
+                <img src="like.jpg"> Plain JS object models
+            </li>
+            <li style="
+            width: 320px;">
+                <img src="like.jpg"> APIs that simply make sense
+            </li>
+            <li style="
+            width: 320px;">
+                <img src="like.jpg"> Building UIs by composing components
+            </li>
+            <li style="
+            width: 320px;">
+                <img src="like.jpg"> Mixing & matching small libraries
+            </li>
+        </ul>
+    </div>
+    <div style="
+    text-align: center;
+    color: #fff;
+    padding: 4em 0;
+    height: 180px;
+    background-color: #7f8c8d;">
+        <button style="
+        font-size: 1.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 1px solid #fff;
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 25px;
+        transition: all 0.15s ease;
+        background-color: #7f8c8d;
+        color: #ffffff;
+        margin-bottom: 2em;"> get started</button>
+
+        <div style="
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;">Released under the
+            <span style="
+            text-decoration: underline;">MIT License</span>
+        </div>
+        <div style="
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;">Copyright (c) 2016
+            <span style="
+            text-decoration: underline;">Evan You</span>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
