@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    height: 64px;
+    background-color: rgb(0, 188, 212);
+    padding: 12px;
+}
+
+.nav > .imgmenu {
+    height: 24px;
+    width: 24px;
+}
+
+.nav > .imggit {
+    height: 24px;
+    width: 24px;
+    padding-left: 1825px;
+}
+
+.top {
+    height: 424px;
+    background-color: rgb(0, 188, 212);
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-content: center;
+    text-align: center;
+}
+
+.top > .imglogo {
+    margin-left: 250px;
+    width: 420px;
+    height: 157px;
+}
+
+.top > .Name {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top > .text {
+    color: rgba(255, 255, 255, 0.870588);
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 19px;
+    margin-bottom: 13px;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 16px;
+}
+
+.top > .btndemo {
+    height: 36px;
+    border-radius: 2px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    top: 0px;
+    background-color: white;
+    border-radius: 2px;
+    border-width: 0;
+}
+
+.top > .btndemo > .txtdemo {
+    position: relative;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(0, 188, 212);
+    -webkit-user-select: none;
+}
+
+.tabgray {
+    height: 188px;
+    background-color: rgb(238, 238, 238);
+}
+
+.tabgray > .content {
+    padding-top: 50px;
+    max-width: 700px;
+    margin: 0px auto 13px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.870588);
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tabwhite {
+    height: 508px;
+    align-content: center;
+    text-align: center;
+}
+
+.tabwhite > .image {
+    padding-top: 72px;
+}
+
+.tabgrayunder {
+    height: 236px;
+    background-color: rgb(238, 238, 238);
+    align-content: center;
+    text-align: center;
+}
+
+.tabgrayunder > .h3 {
+    padding-top: 72px;
+    max-width: 700px;
+    margin: 0px auto 13px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.870588);
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tabgrayunder > .btngit {
+    height: 36px;
+    border-radius: 2px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    top: 0px;
+    background-color: rgb(0, 188, 212);
+    border-radius: 2px;
+    border-width: 0;
+}
+
+.tabgrayunder > .btngit > .txtgit {
+    position: relative;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(255, 255, 255);
+    -webkit-user-select: none;
+}
+
+.tabblack {
+    height: 299px;
+    background-color: black;
+}
+
+.tabblack > .end {
+    padding-top: 72px;
+    align-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.870588);
+}
+
+.tabblack > .end > .txtby {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tabblack > .end > .txtby > .by {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tabblack > .end > .txtby > .by > .special {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tabblack > .end > .ending {
+    padding: 48px;
+}
+
+.tabblack > .end > .ending > .imgend {
+    height: 24px;
+    width: 25px;
+}
+
+.tabblack > .end > .thank {
+    color: rgba(255, 255, 255, 0.541176);
+}
+
+.tabblack > .end > .thank > .txtthank {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 25px 15px 0px;
+    padding: 0px;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased
+}
