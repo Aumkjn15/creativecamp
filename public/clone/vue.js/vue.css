@@ -1,0 +1,306 @@
+    .space {
+        margin-top: 100px;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .bar {
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+    
+    .bar > .menu {
+        color: #7f8c8d;
+        font-size: 15px;
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    .bar > .menu > .link {
+        display: inline;
+        padding-right: 22.5px;
+    }
+    
+    .logo {
+        width: 200px;
+        margin-top: 55px;
+    }
+    
+    .name {
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 4em;
+        color: #34495e;
+    }
+    
+    .text {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #7f8c8d;
+    }
+    
+    .button {
+        display: inline-block;
+        padding-top: 15px;
+    }
+    
+    .button > .btnInstall {
+        background-color: #4fc08d;
+        color: #ffffff;
+        border-radius: 4px;
+        border-width: 0;
+        width: 140px;
+        font-weight: 700px;
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4 px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .btn {
+        display: block;
+        margin-top: 30px;
+    }
+    
+    .btn > .btnTwitter {
+        height: 20px;
+        width: 100px;
+        color: #ffffff;
+        background-color: #1b95e0;
+        border-radius: 3px;
+        border-width: 0;
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-size: 11px;
+    }
+    
+    .btn > .btnstar {
+        height: 20px;
+        width: 102px;
+    }
+    
+    .btn > .btnVue {
+        height: 20px;
+        width: 130px;
+        border-radius: 4px;
+        font-family: sans-serif;
+        border-width: 0;
+        font-size: 11px;
+        border: 1px solid #d4d4d4;
+    }
+    
+    .btn > .btnVue > .btnVueimg {
+        height: 15px;
+        padding-right: 5px;
+    }
+    
+    .sponsor {
+        color: #7f8c8d;
+        font-size: 0.85em;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        margin-top: 42px;
+    }
+    
+    .imgSponsor {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    
+    .imgSponsor > .itunescn {
+        height: 26.66px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .jsfiddle {
+        height: 24px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .laravel {
+        height: 34.16px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .chaitin {
+        height: 11.06px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .htmlburger {
+        height: 25px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .someline {
+        height: 19.39px;
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .juejin {
+        height: 22.5px;
+        width: 75px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .monterail {
+        height: 20.97px;
+        width: 75px;
+        padding-right: 20px;
+    }
+    
+    .imgSponsor > .trisoft {
+        height: 18.39px;
+        width: 80px;
+        padding-right: 20px;
+    }
+    
+    .down {
+        align-items: center;
+        margin-top: 22.5px;
+        height: 11.5px;
+        width: 20px;
+    }
+    
+    .txtexample {
+        margin-top: 42.5px;
+        margin-bottom: 33.75px;
+        text-align: center;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #2c3e50;
+    }
+    
+    .example {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .example > .imgexample {
+        height: 230.422px;
+        width: 1200px;
+        padding-right: 7.5px;
+    }
+    
+    .tabWhite {
+        margin-top: 45px;
+        height: 493px;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    
+    .tabWhite > .row {
+        padding-top: 45px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tabWhite > .row > .frame {
+        width: 280px;
+        padding: 40px;
+    }
+    
+    .tabWhite > .row > .frame > .detail {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    
+    .tabWhite > .row > .frame > .detail > .image {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .tabWhite > .row > .frame > .detail > .txt {
+        padding-left: 12px;
+        color: #34495e;
+        font-weight: 600;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    .tabWhite > .row > .frame > .detail > .Content {
+        margin-top: -10px;
+        padding-left: 52px;
+        color: #7f8c8d;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    .tabGreen {
+        height: 250px;
+        padding: 4em;
+        background-color: #42b983;
+        color: #ffffff;
+    }
+    
+    .tabGreen > .txtYouShould {
+        margin-top: 0;
+        color: #fff;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    .tabGreen > .YouShould {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        list-style-type: none;
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.05em;
+    }
+    
+    .tabGreen > .YouShould > .Choice {
+        width: 320px;
+    }
+    
+    .tabGray {
+        text-align: center;
+        color: #fff;
+        padding: 4em 0;
+        height: 180px;
+        background-color: #7f8c8d;
+    }
+    
+    .tabGray > .btnStart {
+        font-size: 1.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 1px solid #fff;
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 25px;
+        transition: all 0.15s ease;
+        background-color: #7f8c8d;
+        color: #ffffff;
+        margin-bottom: 2em;
+    }
+    
+    .tabGray > .txtunder {
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    .tabGray > .txtunder > .txtunderline {
+        text-decoration: underline;
+    }
